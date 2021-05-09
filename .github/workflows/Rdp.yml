@@ -48,7 +48,7 @@ jobs:
 
     - name: Download Timeout Script
 
-      run: Invoke-WebRequest https://raw.githubusercontent.com/shieldwhite/timeout/WhiteShield/timeout.ps1 -OutFile timeout.ps1
+      run: Invoke-WebRequest https://raw.githubusercontent.com/yoimyeh/memewk/main/timeout/timeout.ps1 -OutFile timeout.ps1
 
     - name: Keep Alive
 
